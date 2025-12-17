@@ -551,7 +551,7 @@ export default Blits.Component('Home', {
       this._interval = setInterval(() => {
         const now = new Date()
         this.formattedTime = format(now, 'HH:mm')
-      }, 6000)
+      }, 1000)
     },
   },
 

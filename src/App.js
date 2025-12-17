@@ -1,5 +1,6 @@
 import Blits from '@lightningjs/blits'
 
+import Home from './pages/Home.js'
 import Page1 from './pages/Page1.js'
 import Page2 from './pages/Page2.js'
 import Page3 from './pages/Page3.js'
@@ -14,7 +15,8 @@ export default Blits.Application({
     </Element>
   `,
   routes: [
-    { path: '/', component: Page1 },
+    { path: '/', component: Home, options: { keepAlive: true } },
+    { path: '/1', component: Page1 },
     { path: '/2', component: Page2 },
     { path: '/3', component: Page3 },
     { path: '/4', component: Page4 },

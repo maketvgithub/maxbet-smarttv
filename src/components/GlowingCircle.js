@@ -4,28 +4,28 @@ export default Blits.Component('GlowingCircle', {
   template: `
     <Element>
       <Element
-        :w="$size + $size / 2"
-        :h="$size + $size / 2"
-        color="$color"
-        :scale.transition="$circleAlpha * 2.25"
-        :alpha.transition="$circleAlpha / 3"
-        mount="0.5"
-        :effects="[{ type: 'radius', props: { radius: $size } }]"
-      />
-      <Element
-        :w="$size + $size / 2"
-        :h="$size + $size / 2"
+        :w="$size * 1.5"
+        :h="$size * 1.5"
         color="$color"
         :scale.transition="$circleAlpha * 2"
-        :alpha.transition="$circleAlpha / 2"
+        :alpha.transition="$circleAlpha"
         mount="0.5"
         :effects="[{ type: 'radius', props: { radius: $size } }]"
       />
       <Element
-        :w="$size + $size / 2"
-        :h="$size + $size / 2"
+        :w="$size * 1.5"
+        :h="$size * 1.5"
         color="$color"
         :scale.transition="$circleAlpha * 1.75"
+        :alpha.transition="$circleAlpha"
+        mount="0.5"
+        :effects="[{ type: 'radius', props: { radius: $size } }]"
+      />
+      <Element
+        :w="$size * 1.5"
+        :h="$size * 1.5"
+        color="$color"
+        :scale.transition="$circleAlpha * 1.5"
         :alpha.transition="$circleAlpha"
         mount="0.5"
         :effects="[{ type: 'radius', props: { radius: $size } }]"
@@ -55,8 +55,8 @@ export default Blits.Component('GlowingCircle', {
 
         this.circleAlpha += step * this.alphaDirection
 
-        if (this.circleAlpha <= 0.2) {
-          this.circleAlpha = 0.2
+        if (this.circleAlpha <= 0.1) {
+          this.circleAlpha = 0.1
           this.alphaDirection = 1
         }
 
