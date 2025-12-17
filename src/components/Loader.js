@@ -7,7 +7,7 @@ export default Blits.Component('Loader', {
       <Circle size="40" :color="$loaderColor || '#94a3b8'" x="60" :alpha.transition="{value: $alpha, delay: 300}" />
       <Circle size="40" :color="$loaderColor || '#94a3b8'" x="120" :alpha.transition="{value: $alpha, delay: 400}" />
     </Element>
-    `,
+  `,
   /**
    * @type {['loaderColor']}
    */
