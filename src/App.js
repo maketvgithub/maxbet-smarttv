@@ -6,7 +6,7 @@ import Page2 from './pages/Page2.js'
 import Page3 from './pages/Page3.js'
 import Page4 from './pages/Page4.js'
 import Page5 from './pages/Page5.js'
-import Page6 from './pages/Page6.js'
+import Schedules from './pages/Schedules/Schedules.js'
 
 export default Blits.Application({
   template: `
@@ -21,6 +21,6 @@ export default Blits.Application({
     { path: '/3', component: Page3 },
     { path: '/4', component: Page4 },
     { path: '/5', component: Page5 },
-    { path: '/6', component: Page6 },
+    { path: '/6', component: Schedules },
   ],
 })
