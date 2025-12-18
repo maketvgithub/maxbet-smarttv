@@ -10,6 +10,8 @@ export default Blits.Component('LiveBetting3', {
       topRight1: '1.23',
       topRight2: 'T: 14306',
       currentTime: '',
+      timeoutIds: [],
+      intervalId: null,
     }
   },
   template: `
@@ -254,17 +256,18 @@ export default Blits.Component('LiveBetting3', {
   hooks: {
     ready() {
       // Start progress bar animation - 30 seconds
-      setTimeout(() => {
+      const timeout1 = setTimeout(() => {
         this.progressWidth = 100
       }, 100)
+      this.timeoutIds.push(timeout1)
 
       // Navigate to next route after 30 seconds
-      setTimeout(() => {
+      const timeout2 = setTimeout(() => {
         if (this.$router) {
           this.$router.to('/live-betting')
-          console.log('prebacio')
         }
       }, 30000)
+      this.timeoutIds.push(timeout2)
 
       // Update current time
       const updateTime = () => {
@@ -275,7 +278,7 @@ export default Blits.Component('LiveBetting3', {
       }
 
       updateTime()
-      this.$setInterval(updateTime, 60000)
+      this.intervalId = this.$setInterval(updateTime, 60000)
     },
   },
   input: {
@@ -284,6 +287,21 @@ export default Blits.Component('LiveBetting3', {
     },
     down() {
       // Navigation can be added here
+    },
+    back() {
+      // Clear all timeouts
+      this.timeoutIds.forEach((timeoutId) => {
+        clearTimeout(timeoutId)
+      })
+      this.timeoutIds = []
+
+      // Clear interval
+      if (this.intervalId) {
+        this.$clearInterval(this.intervalId)
+        this.intervalId = null
+      }
+
+      this.$router.to('/')
     },
   },
 })

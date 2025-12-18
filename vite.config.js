@@ -5,7 +5,7 @@ import blitsVitePlugins from '@lightningjs/blits/vite'
 
 export default defineConfig(({ command, mode, ssrBuild }) => {
   return {
-    base: '/', // Set to your base path if you are deploying to a subdirectory (example: /myApp/)
+    base: '/blits/', // Set to your base path if you are deploying to a subdirectory (example: /myApp/)
     build: {
       target: 'es2015',
       sourcemap: true,
