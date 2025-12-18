@@ -5,8 +5,8 @@ export default Blits.Component('LiveBetting2', {
     return {
       progressWidth: 0,
       headerText: '2/3',
-      title: 'KLAĐENJE UŽIVO',
-      mainTitle: 'KOŠARKA',
+      title: 'KLADJENJE UZIVO',
+      mainTitle: 'KOSARKA',
       mainTitle2: 'TENIS',
       topRight1: '1.23',
       topRight2: 'T: 14306',

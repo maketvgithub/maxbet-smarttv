@@ -5,7 +5,7 @@ export default Blits.Component('LiveBetting3', {
     return {
       progressWidth: 0,
       headerText: '3/3',
-      title: 'KLAĐENJE UŽIVO',
+      title: 'KLADJENJE UZIVO',
       mainTitle: 'FUDBAL VIRTUAL',
       topRight1: '1.23',
       topRight2: 'T: 14306',
