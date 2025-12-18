@@ -19,10 +19,9 @@ export default Blits.Application({
   `,
   routes: [
     { path: '/', component: Home, options: { keepAlive: true } },
-    { path: '/1', component: Page1 },
-    { path: '/', component: LiveBetting },
+    { path: '/1', component: LiveBetting },
     ...RouterHookRoutes,
-    { path: '/2', component: Page2 },
+    { path: '/2', component: LiveBetting },
     { path: '/3', component: Page3 },
     { path: '/4', component: Page4 },
     { path: '/5', component: Page5 },

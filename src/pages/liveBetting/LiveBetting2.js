@@ -14,7 +14,7 @@ export default Blits.Component('LiveBetting2', {
     }
   },
   template: `
-    <Element w="1920" h="1080" color="#0a1a0a" size="16">
+    <Element w="1920" h="1080" color="#1a1a1a" size="16">
       <!-- Header -->
       <!-- Logo -->
       <Element x="50" y="20" w="200" h="50">
@@ -59,54 +59,54 @@ export default Blits.Component('LiveBetting2', {
         <!-- Left Table Rows -->
         <Element x="50" y="70" w="700" h="750">
           <!-- Match 1 -->
-          <Element w="700" h="48" y="0" color="#8b3525">
+          <Element w="700" h="48" y="0" color="#000000">
             <Text x="20" y="12" content="8060" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="88'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="S. ATLETICO TV W - SAN LORENZO W" size="18" color="#ffffff" />
           </Element>
           <!-- Match 2 -->
-          <Element w="700" h="48" y="48" color="#ab4630">
+          <Element w="700" h="48" y="48" color="#000000">
             <Text x="20" y="12" content="7480" size="16" color="#ffffff" />
             <Text x="135" y="12" content="93'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="ETAR - SPARTAK PLEVEN" size="18" color="#ffffff" />
           </Element>
           <!-- Match 3 -->
-          <Element w="700" h="48" y="96" color="#8b3525">
+          <Element w="700" h="48" y="96" color="#000000">
             <Text x="20" y="12" content="7314" size="16" color="#ffffff" />
             <Text x="135" y="12" content="92'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="LEVADIA U21 - FLORA T. U21" size="18" color="#ffffff" />
           </Element>
           <!-- Match 4 -->
-          <Element w="700" h="48" y="144" color="#ab4630">
+          <Element w="700" h="48" y="144" color="#000000">
             <Text x="20" y="12" content="36736" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="91'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="FC YLIVIESKA - SIF" size="18" color="#ffffff" />
           </Element>
           <!-- Match 5 -->
-          <Element w="700" h="48" y="192" color="#8b3525">
+          <Element w="700" h="48" y="192" color="#000000">
             <Text x="20" y="12" content="7990" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="84'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="BOMBADA - MARIMOO" size="18" color="#ffffff" />
           </Element>
           <!-- Match 6 -->
-          <Element w="700" h="48" y="240" color="#ab4630">
+          <Element w="700" h="48" y="240" color="#000000">
             <Text x="20" y="12" content="7991" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="86'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="DUTCH LIONS - HAWKS FC" size="18" color="#ffffff" />
           </Element>
           <!-- Match 7 -->
-          <Element w="700" h="48" y="288" color="#8b3525">
+          <Element w="700" h="48" y="288" color="#000000">
             <Text x="20" y="12" content="7992" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="90'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="REAL BANJUL - BST GALAXY" size="18" color="#ffffff" />
           </Element>
           <!-- Match 8 -->
-          <Element w="700" h="48" y="336" color="#ab4630">
+          <Element w="700" h="48" y="336" color="#000000">
             <Text x="20" y="12" content="37454" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="87'" size="16" color="#ffffff" />
@@ -160,7 +160,7 @@ export default Blits.Component('LiveBetting2', {
         <!-- Right Table Rows -->
         <Element x="0" y="120" w="960" h="750">
           <!-- Match 1 -->
-          <Element w="960" h="48" y="0" color="#8b3525">
+          <Element w="960" h="48" y="0" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:1" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -175,7 +175,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.13        2.50        5.60" size="18" color="#ffff00" />
           </Element>
           <!-- Match 2 -->
-          <Element w="960" h="48" y="48" color="#ab4630">
+          <Element w="960" h="48" y="48" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -187,7 +187,7 @@ export default Blits.Component('LiveBetting2', {
             <Element x="800" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
           </Element>
           <!-- Match 3 -->
-          <Element w="960" h="48" y="96" color="#8b3525">
+          <Element w="960" h="48" y="96" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:1" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -198,7 +198,7 @@ export default Blits.Component('LiveBetting2', {
             <Element x="800" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
           </Element>
           <!-- Match 4 -->
-          <Element w="960" h="48" y="144" color="#ab4630">
+          <Element w="960" h="48" y="144" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="1:3" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -213,7 +213,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.25        5.5        3.40" size="18" color="#ffff00" />
           </Element>
           <!-- Match 5 -->
-          <Element w="960" h="48" y="192" color="#8b3525">
+          <Element w="960" h="48" y="192" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -227,7 +227,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.20        2.5        4.00" size="18" color="#ffff00" />
           </Element>
           <!-- Match 6 -->
-          <Element w="960" h="48" y="240" color="#ab4630">
+          <Element w="960" h="48" y="240" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="1:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -241,7 +241,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.20        2.5        4.00" size="18" color="#ffff00" />
           </Element>
           <!-- Match 7 -->
-          <Element w="960" h="48" y="288" color="#8b3525">
+          <Element w="960" h="48" y="288" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="1:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -256,7 +256,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.35        3.5        2.90" size="18" color="#ffff00" />
           </Element>
           <!-- Match 8 -->
-          <Element w="960" h="48" y="336" color="#ab4630">
+          <Element w="960" h="48" y="336" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="2:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -285,20 +285,20 @@ export default Blits.Component('LiveBetting2', {
         <!-- Left Table Rows -->
         <Element x="50" y="70" w="700" h="750">
           <!-- Match 1 -->
-          <Element w="700" h="48" y="0" color="#9d7a12">
+          <Element w="700" h="48" y="0" color="#000000">
             <Text x="20" y="12" content="8060" size="16" color="#ffffff" />
             <Circle x="120" y="24" size="6" color="#00ff00" />
             <Text x="135" y="12" content="88'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="S. ATLETICO TV W - SAN LORENZO W" size="18" color="#ffffff" />
           </Element>
           <!-- Match 2 -->
-          <Element w="700" h="48" y="48" color="#bf9a16">
+          <Element w="700" h="48" y="48" color="#000000">
             <Text x="20" y="12" content="7480" size="16" color="#ffffff" />
             <Text x="135" y="12" content="93'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="ETAR - SPARTAK PLEVEN" size="18" color="#ffffff" />
           </Element>
           <!-- Match 3 -->
-          <Element w="700" h="48" y="96" color="#9d7a12">
+          <Element w="700" h="48" y="96" color="#000000">
             <Text x="20" y="12" content="7314" size="16" color="#ffffff" />
             <Text x="135" y="12" content="92'" size="16" color="#ffffff" />
             <Text x="220" y="12" content="LEVADIA U21 - FLORA T. U21" size="18" color="#ffffff" />
@@ -358,7 +358,7 @@ export default Blits.Component('LiveBetting2', {
         <!-- Right Table Rows -->
         <Element x="0" y="120" w="960" h="750">
           <!-- Match 1 -->
-          <Element w="960" h="48" y="0" color="#9d7a12">
+          <Element w="960" h="48" y="0" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:1" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -373,7 +373,7 @@ export default Blits.Component('LiveBetting2', {
             <Text x="820" y="12" content="1.13        2.50        5.60" size="18" color="#ffff00" />
           </Element>
           <!-- Match 2 -->
-          <Element w="960" h="48" y="48" color="#bf9a16">
+          <Element w="960" h="48" y="48" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:0" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -385,7 +385,7 @@ export default Blits.Component('LiveBetting2', {
             <Element x="800" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
           </Element>
           <!-- Match 3 -->
-          <Element w="960" h="48" y="96" color="#9d7a12">
+          <Element w="960" h="48" y="96" color="#000000">
             <Element x="0" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
             <Text x="20" y="12" content="0:1" size="20" color="#ffffff" />
             <Element x="100" y="0" w="2" h="48" color="#ffffff" alpha="0.3" />
@@ -398,7 +398,7 @@ export default Blits.Component('LiveBetting2', {
         </Element>
       </Element>
       <!-- Footer -->
-      <Element x="50" y="1020" w="1820" h="40" color="#1a3a1a">
+      <Element x="50" y="1020" w="1820" h="40" color="#000000">
         <Circle x="80" y="20" size="4" color="#00ff00" />
         <Text x="95" y="10" content="R FK 0:1" size="18" color="#ffffff" />
         <Circle x="170" y="20" size="4" color="#00ff00" />
