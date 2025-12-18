@@ -8,6 +8,9 @@ import Page4 from './pages/Page4.js'
 import Page5 from './pages/Page5.js'
 import Schedules from './pages/Schedules/Schedules.js'
 
+import LiveBetting from './pages/liveBetting/LiveBetting.js'
+import { RouterHookRoutes } from './pages/liveBetting/routes.js'
+
 export default Blits.Application({
   template: `
     <Element>
@@ -17,6 +20,8 @@ export default Blits.Application({
   routes: [
     { path: '/', component: Home, options: { keepAlive: true } },
     { path: '/1', component: Page1 },
+    { path: '/', component: LiveBetting },
+    ...RouterHookRoutes,
     { path: '/2', component: Page2 },
     { path: '/3', component: Page3 },
     { path: '/4', component: Page4 },
