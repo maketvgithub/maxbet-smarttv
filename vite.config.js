@@ -2,7 +2,9 @@
 
 import { defineConfig } from 'vite'
 import blitsVitePlugins from '@lightningjs/blits/vite'
+import legacy from '@vitejs/plugin-legacy'
 
+// @ts-ignore
 export default defineConfig(({ command, mode, ssrBuild }) => {
   return {
     base: '/blits/', // Set to your base path if you are deploying to a subdirectory (example: /myApp/)
@@ -10,14 +12,19 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
       target: 'es2015',
       sourcemap: true,
     },
-    plugins: [...blitsVitePlugins],
+    plugins: [
+      ...blitsVitePlugins,
+      legacy({
+        targets: ['Chrome 38'],
+      }),
+    ],
     resolve: {
       mainFields: ['browser', 'module', 'jsnext:main', 'jsnext'],
     },
     server: {
       headers: {
         'Cross-Origin-Opener-Policy': 'same-origin',
-        'Cross-Origin-Embedder-Policy': 'require-corp',
+        'Cross-Origin-Embedder-Policy': 'unsafe-none',
       },
       fs: {
         allow: ['..'],
